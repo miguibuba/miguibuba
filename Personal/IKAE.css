@@ -1,0 +1,47 @@
+body{
+    background: color #f3f3ff;;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header{
+    display: flex;
+    background-color:#ccc;
+}
+.logo{ 
+    display: flex;
+    width: 40%;
+    height: auto;
+}
+.imagen-logo{
+    width: 30%;
+    height: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 40vw; 
+}
+.header-ul {
+    display: flex;
+    justify-content: space-evenly;   
+    width: 40vw;
+    height:2vh;
+    list-style-type: none;
+}
+
+
+/* section 1 */
+.section1{
+    display: flex;
+    background-image: url(./images/headerIKAE.jpg);
+    background-size: cover;
+}
+.text-s1{
+    position: absolute;
+    justify-content:center;
+    align-items: center;
+    background-position:center ;
+}
